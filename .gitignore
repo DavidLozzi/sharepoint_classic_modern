@@ -1,0 +1,10 @@
+npm-debug.log
+.DS_Store
+.idea
+*.iml
+build
+node_modules
+bower_modules
+.vscode/
+q
+myCreds.js

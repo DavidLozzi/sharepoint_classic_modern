@@ -1,0 +1,64 @@
+.ms-formtable {
+  width: 400px;
+  .ms-formlabel, .ms-formbody {
+    display:block;
+    width: 100%;
+    padding: 0;
+  }
+  .ms-formlabel{
+    padding-top: 20px;
+  }
+  .ms-accentText {
+    color: #a80000; 
+  }
+  .valid {
+    display: none;
+  }
+  .ms-Label, .ms-standardheader {
+    font-family:"Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size:14px;
+    font-weight:500;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    padding-top:5px;
+    box-shadow:none;
+    box-sizing:border-box;
+    display:block;
+  }
+  .ms-formbody{
+    input, select, textarea{
+      font-family: "Segoe UI Semilight WestEuropean","Segoe UI Semilight","Segoe UI",Tahoma,Arial,sans-serif;
+      min-width: 170px;
+      width: 100%;
+      min-height: 32px;
+      height: 32px;
+      border: 0;
+      border-bottom: 1px solid #a6a6a6;
+      font-size: 14px;
+      outline: 0;
+      transition: background-color .2s ease,padding-left .2s ease;
+      box-sizing: border-box;
+      padding: 5px;
+    }
+    select + span > select {
+      margin-top: 10px;
+    }
+    textarea{
+      height: auto;
+      min-height: auto;
+    }
+    .ms-dttimeinput{
+      width: 150px;
+      select{
+        min-width: auto;
+        width: 70px;
+        display: inline-block;
+      }
+    }
+    span br { 
+      display:none 
+    }
+  }
+}

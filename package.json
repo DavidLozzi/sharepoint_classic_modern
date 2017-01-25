@@ -1,0 +1,27 @@
+{
+  "name": "sharepoint_classic_modern",
+  "version": "1.0.0",
+  "description": "Basic CSS to convert a classic SharePoint list forms to the new modern list UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidLozzi/sharepoint_classic_modern.git"
+  },
+  "author": "David Lozzi, @davidlozzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidLozzi/sharepoint_classic_modern/issues"
+  },
+  "homepage": "https://github.com/DavidLozzi/sharepoint_classic_modern#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "minimist": "^1.2.0",
+    "run-sequence": "^1.2.2"
+  }
+}
