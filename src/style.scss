@@ -61,4 +61,37 @@
       display:none 
     }
   }
+  .sp-peoplepicker-topLevel {
+    border: none;
+    border-bottom: 1px solid #a6a6a6;
+    width: 100%;
+    padding-right: 0px;
+    input {
+      border-bottom: none;
+    }
+    .sp-peoplepicker-userSpan{
+      background-color: #c3f3f4;
+      padding: 5px;
+      .sp-peoplepicker-delImage{
+        margin-left: 7px;
+      }
+    }
+    .sp-peoplepicker-initialHelpText{
+      top: 15px;
+    }
+  }
+  .ms-taxonomy{
+    border: none;
+    border-bottom: 1px solid #a6a6a6;
+    width: 100%;
+    .ms-inputBox {
+      border: none;
+    }
+    .ms-taxonomy-control-holder {
+      width: 100%;
+      .ms-taxonomy-browser-button{
+        padding-top: 10px;
+      }
+    }
+  }
 }
